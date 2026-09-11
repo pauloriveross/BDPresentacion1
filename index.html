@@ -200,7 +200,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.1rem;
+            color: #ffffff;
+            flex-shrink: 0;
         }
         .navbar-links {
             display: flex;
@@ -520,7 +521,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.3rem;
+            color: #ffffff;
+            flex-shrink: 0;
         }
         .mockup-name {
             font-weight: 600;
@@ -626,7 +628,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.5rem;
+            color: #ff7675;
             margin-bottom: 20px;
         }
         .problem-card h3 {
@@ -708,7 +710,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.5rem;
+            color: var(--accent);
             margin-bottom: 20px;
             transition: all 0.4s;
         }
@@ -1039,7 +1041,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.6rem;
+            color: #ffffff;
             margin-bottom: 24px;
         }
         .mission-card h3 {
@@ -1444,7 +1446,9 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <a href="#" class="navbar-logo">
-                <div class="logo-icon">💪</div>
+                <div class="logo-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 5v14M18 5v14M2 9v6M22 9v6M6 12h12"/></svg>
+                </div>
                 FitManager
             </a>
             <ul class="navbar-links" id="navLinks">
@@ -1503,7 +1507,9 @@
             <div class="hero-visual">
                 <div class="mockup-card">
                     <div class="mockup-header">
-                        <div class="mockup-avatar">🏃</div>
+                        <div class="mockup-avatar">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        </div>
                         <div>
                             <div class="mockup-name">María González</div>
                             <div class="mockup-role">Plan Premium · Desde marzo 2026</div>
@@ -1559,32 +1565,44 @@
             </div>
             <div class="problem-grid">
                 <div class="problem-card reveal stagger-1">
-                    <div class="problem-icon">📋</div>
+                    <div class="problem-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                    </div>
                     <h3>Datos desorganizados</h3>
                     <p>Fichas de clientes en carpetas, planillas desactualizadas y datos de salud dispersos que se pierden o duplican constantemente.</p>
                 </div>
                 <div class="problem-card reveal stagger-2">
-                    <div class="problem-icon">📉</div>
+                    <div class="problem-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/></svg>
+                    </div>
                     <h3>Sin seguimiento real</h3>
                     <p>No hay forma eficiente de medir el progreso de cada cliente ni de demostrar resultados concretos que fidelicen a tu comunidad.</p>
                 </div>
                 <div class="problem-card reveal stagger-3">
-                    <div class="problem-icon">💸</div>
+                    <div class="problem-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/><line x1="7" y1="15" x2="7.01" y2="15"/><line x1="11" y1="15" x2="13" y2="15"/></svg>
+                    </div>
                     <h3>Pagos sin control</h3>
                     <p>Cobros manuales, contratos en papel y falta de visibilidad sobre cuotas pendientes que afectan el flujo de caja.</p>
                 </div>
                 <div class="problem-card reveal stagger-4">
-                    <div class="problem-icon">📆</div>
+                    <div class="problem-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="10" y1="14" x2="14" y2="18"/><line x1="14" y1="14" x2="10" y2="18"/></svg>
+                    </div>
                     <h3>Agendas caóticas</h3>
                     <p>Horarios de entrenadores que se cruzan, sesiones sin confirmar y clientes que no saben cuándo asistir.</p>
                 </div>
                 <div class="problem-card reveal stagger-5">
-                    <div class="problem-icon">🏋️</div>
+                    <div class="problem-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                    </div>
                     <h3>Rutinas genéricas</h3>
                     <p>Sin una herramienta para crear y asignar rutinas personalizadas, todos los clientes terminan haciendo lo mismo.</p>
                 </div>
                 <div class="problem-card reveal stagger-6">
-                    <div class="problem-icon">🌎</div>
+                    <div class="problem-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </div>
                     <h3>Software foráneo y costoso</h3>
                     <p>Las pocas plataformas disponibles son extranjeras, caras y no se adaptan a la realidad de los centros chilenos.</p>
                 </div>
@@ -1605,32 +1623,44 @@
             </div>
             <div class="features-grid">
                 <div class="feature-card reveal stagger-1">
-                    <div class="feature-icon">👥</div>
+                    <div class="feature-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
                     <h3>Gestión de Clientes</h3>
                     <p>Centraliza toda la información de tus clientes: datos personales, historial deportivo, antecedentes de salud y preferencias de entrenamiento.</p>
                 </div>
                 <div class="feature-card reveal stagger-2">
-                    <div class="feature-icon">🎯</div>
+                    <div class="feature-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                    </div>
                     <h3>Planes Personalizados</h3>
                     <p>Crea y asigna planes de entrenamiento a la medida de cada persona, con objetivos claros y plazos definidos.</p>
                 </div>
                 <div class="feature-card reveal stagger-3">
-                    <div class="feature-icon">📊</div>
+                    <div class="feature-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                    </div>
                     <h3>Seguimiento de Progreso</h3>
                     <p>Registra mediciones corporales, rendimiento y evolución. Muestra a tus clientes sus resultados con gráficos claros.</p>
                 </div>
                 <div class="feature-card reveal stagger-4">
-                    <div class="feature-icon">💳</div>
+                    <div class="feature-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                    </div>
                     <h3>Contratos y Pagos</h3>
                     <p>Administra contratos, tipos de membresía, facturación y estado de pagos sin perder el hilo.</p>
                 </div>
                 <div class="feature-card reveal stagger-5">
-                    <div class="feature-icon">📅</div>
+                    <div class="feature-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><polyline points="9 16 11 18 15 14"/></svg>
+                    </div>
                     <h3>Agenda Inteligente</h3>
                     <p>Organiza los horarios de tus entrenadores, programa sesiones y evita cruces o sobrecargas.</p>
                 </div>
                 <div class="feature-card reveal stagger-6">
-                    <div class="feature-icon">🏥</div>
+                    <div class="feature-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="12" y1="8" x2="12" y2="14"/><line x1="9" y1="11" x2="15" y2="11"/></svg>
+                    </div>
                     <h3>Ficha de Salud</h3>
                     <p>Almacena de forma segura los antecedentes médicos, lesiones y condiciones de cada cliente para entrenar sin riesgos.</p>
                 </div>
@@ -1687,10 +1717,10 @@
                         estado de pagos y evolución física — disponible al instante.
                     </p>
                     <ul class="benefit-list">
-                        <li><span class="check">✓</span> Perfil completo de cada cliente</li>
-                        <li><span class="check">✓</span> Historial de asistencia y sesiones</li>
-                        <li><span class="check">✓</span> Estado de contratos y pagos al día</li>
-                        <li><span class="check">✓</span> Alertas automáticas de vencimiento</li>
+                        <li><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Perfil completo de cada cliente</li>
+                        <li><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Historial de asistencia y sesiones</li>
+                        <li><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Estado de contratos y pagos al día</li>
+                        <li><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Alertas automáticas de vencimiento</li>
                     </ul>
                 </div>
                 <div class="benefit-visual reveal-right">
@@ -1748,10 +1778,10 @@
                         que motivan a tus clientes y los hacen quedarse.
                     </p>
                     <ul class="benefit-list">
-                        <li><span class="check">✓</span> Registro de peso, grasa, masa muscular</li>
-                        <li><span class="check">✓</span> Gráficos de evolución en el tiempo</li>
-                        <li><span class="check">✓</span> Comparativas mes a mes</li>
-                        <li><span class="check">✓</span> Reportes descargables para el cliente</li>
+                        <li><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Registro de peso, grasa, masa muscular</li>
+                        <li><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Gráficos de evolución en el tiempo</li>
+                        <li><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Comparativas mes a mes</li>
+                        <li><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Reportes descargables para el cliente</li>
                     </ul>
                 </div>
                 <div class="benefit-visual reveal-left">
@@ -1823,7 +1853,9 @@
             </div>
             <div class="mission-grid">
                 <div class="mission-card card-mission reveal-left">
-                    <div class="card-icon">🎯</div>
+                    <div class="card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+                    </div>
                     <h3>Nuestra Misión</h3>
                     <p>
                         Entregar una solución confiable, fácil de usar y accesible que permita a los centros 
@@ -1832,7 +1864,9 @@
                     </p>
                 </div>
                 <div class="mission-card card-vision reveal-right">
-                    <div class="card-icon">🚀</div>
+                    <div class="card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+                    </div>
                     <h3>Nuestra Visión</h3>
                     <p>
                         Ser la plataforma de referencia para la gestión de centros de entrenamiento y gimnasios 
@@ -1885,8 +1919,10 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-left">
-                <span class="footer-logo">💪 FitManager Pro</span>
-                <span class="footer-copy">© 2026 — Hecho en Chile 🇨🇱</span>
+                <span class="footer-logo">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:6px; color:var(--accent);"><path d="M6 5v14M18 5v14M2 9v6M22 9v6M6 12h12"/></svg>FitManager Pro
+                </span>
+                <span class="footer-copy">© 2026 FitManager Pro — Hecho en Chile</span>
             </div>
             <ul class="footer-links">
                 <li><a href="#solucion">Solución</a></li>
